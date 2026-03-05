@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="robots" content="index,follow" />
+  <title>The Jóhann Jóhannsson Foundation — Announcement</title>
+  <meta name="description" content="Announcement regarding the closure of The Jóhann Jóhannsson Foundation." />
+  <style>
+    :root { --text:#111; --muted:#555; --rule:#e6e6e6; --bg:#fff; }
+    html,body { height:100%; }
+    body{
+      margin:0; background:var(--bg); color:var(--text);
+      font: 16px/1.6 ui-serif, Georgia, "Times New Roman", Times, serif;
+    }
+    .wrap{ max-width: 820px; margin: 0 auto; padding: 64px 20px 80px; }
+    header{ margin-bottom: 28px; }
+    .kicker{ font-size: 13px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); }
+    h1{ font-size: 34px; line-height:1.2; margin: 10px 0 8px; font-weight: 600; }
+    .sub{ color:var(--muted); margin: 0 0 18px; }
+    hr{ border:0; border-top:1px solid var(--rule); margin: 26px 0; }
+    article p{ margin: 0 0 14px; }
+    .meta{ color:var(--muted); font-size:14px; }
+    .contact{
+      margin-top: 26px; padding-top: 18px; border-top:1px solid var(--rule);
+      color: var(--muted); font-size: 15px;
+    }
+    a{ color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+    footer{ margin-top: 44px; color: var(--muted); font-size: 13px; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <div class="kicker">Press Release</div>
+      <h1>The Jóhann Jóhannsson Foundation — Closing Announcement</h1>
+      <p class="sub meta">For immediate release · <span id="date"></span></p>
+      <hr />
+    </header>
+    <article></article>
+    
+   
+     <p><strong><bold>The Jóhann Jóhannsson Foundation Concludes Operations with Significant Donation to The Laufey Foundation </bold></strong></p>
+
+    <p><bold>Reykjavík, Iceland – 3/5/2026</bold> — The Board of Directors of the Jóhann Jóhannsson Foundation announced today the conclusion of its operations. In a gesture that honors the spirit and mission of the late composer, the Foundation has made a significant donation of its remaining funds to The Laufey Foundation, an organization dedicated to supporting music education and youth orchestras worldwide.
+“Jóhann Jóhannsson’s legacy as a composer, artist, and champion of the arts continues to inspire a new generation of musicians and storytellers,” said Kevin Korn, spokesman for the board of directors. “His music lives on through his award-winning film scores and acclaimed albums, leaving an indelible mark on the cultural landscape."</p>
+
+<p>As we bring the work of the Jóhann Jóhannsson Foundation to a close, we do so with both a sense of reflection and hope. In honoring Jóhann’s vision and commitment to nurturing the arts, we are proud to donate the foundation’s remaining funds to The Laufey Foundation, whose extraordinary efforts support youth orchestras and young musicians around the world.
+Jóhann believed deeply in the power of live performance and the importance of exposing young people to artistic expression. Laufey—a fellow Icelandic artist and inspiring voice for this new generation—embodies this same spirit. Her foundation’s work ensures that access to music and creative education will continue to flourish.
+Through this gift, we hope to continue Jóhann’s mission: to elevate and preserve the transformative power of music for generations to come.”</p>
+    
+<p>The Laufey Foundation, launched by Grammy-winning artist Laufey, provides vital resources to music education programs, with a focus on youth orchestras and underserved communities. The foundation’s mission aligns closely with the values held by Jóhann and his family.
+Laufey said, “As a fellow Icelandic musician, I am deeply honored to receive this support from The Johan Johansson Foundation. Similar to The Laufey Foundation, Johann was dedicated to music education and achievement. Music education helped me discover my talent, and I owe a large part of my success to organizations, teachers, and other musicians. To have Johann's legacy live on through The Laufey Foundation is wonderful and incredibly fitting.” 
+
+<p>The Jóhann Jóhannsson Foundation was established in 2020 to support emerging composers and celebrate Jóhann’s commitment to innovation, collaboration, and the emotional power of sound. Its closing marks the end of a chapter—but through this meaningful donation, the Foundation ensures Jóhann’s legacy will continue to resonate through the voices of young musicians around the world.</p>
+
+<hr>
+
+<p style="text-align:center; margin-top:30px; color:#555; font-style:italic;">
+The legacy of Jóhann Jóhannsson lives on through the composers, musicians, and artists around the world who continue to draw inspiration from his music and creative spirit.
+</p>
+
+<p style="text-align:center; margin-top:10px;">
+To learn more about ongoing initiatives supporting emerging artists, please visit the 
+<a href="https://thelaufeyfoundation.org/" target="_blank">
+The Laufey Foundation
+</a>.
+</p>
+
+</article>
+    <footer>
+      © <span id="year"></span> The Jóhann Jóhannsson Foundation
+    </footer>
+  </main>
+
+  <script>
+    const now = new Date();
+    document.getElementById('date').textContent = now.toLocaleDateString(undefined, { year:'numeric', month:'long', day:'numeric' });
+    document.getElementById('year').textContent = now.getFullYear();
+  </script>
+</body>
+</html>
